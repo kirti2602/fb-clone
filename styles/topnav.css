@@ -2,10 +2,10 @@
 .top-nav{
     grid-area: topnav;
     justify-content: space-between;
-    gap: 3rem;
+    /* gap: 3rem; */
     box-shadow: 1px 1px 10px var(--light-grey);
     background-color: white;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     /* margin-bottom: 20%; */
 }

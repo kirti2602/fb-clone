@@ -77,8 +77,18 @@ i{
 
     .top-nav{
         flex-direction: column;
+        justify-content: space-between;
+        /* height: 10rem; */
+        gap: 0.3rem;
     }
 
+    .logo-search, .user-info {
+        width: fit-content;
+    }
+
+    .user-info {
+        align-items: center;
+    }
     .flex{
         flex-wrap: wrap;
     }
@@ -92,8 +102,13 @@ i{
         /* width: 50%; */
     }
     .comment-box{
-        flex-wrap: wrap; 
+        flex-wrap: nowrap; 
+        flex-direction: column;
+        align-items: center;
         /* for smaller screen make it flex-direction column */
+    }
+    .comment-text{
+        margin-left: 0;
     }
 }
 
