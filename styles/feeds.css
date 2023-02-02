@@ -1,0 +1,99 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;800&display=swap');
+
+/* iconscdn */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+/* reset css */
+@import "reset.css";
+@import "utility.css";
+@import "topnav.css";
+@import "sidenav.css";
+@import "main.css";
+@import "rightpanel.css";
+
+:root{
+    /* colors */
+    --primary-blue: #1b74e4;
+    --darker-grey: rgb(87, 87, 87);
+    --dark-grey: #898F9C;
+    --light-grey: #e4e6eb;
+    --lighter-grey: #f0f2f5;
+    --white-bg: white;
+    --off-black: rgb(48, 47, 47);
+    --zed-black: rgb(22, 22, 22);
+    --cherry-pink:#F35369;
+    --lemon-yellow: #F5C33B;
+    /* font-family */
+    --feedpage-fontstyle: 'Inter', sans-serif;
+}
+
+*, body{
+    font-family: var(--feedpage-fontstyle);
+}
+
+body{
+    background-color: var(--lighter-grey);
+}
+
+i{
+    cursor: pointer;
+}
+
+/* feeds page layout css */
+.feeds-container{
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-areas: 
+    "topnav topnav topnav topnav topnav topnav topnav topnav topnav topnav"
+    "sidenav sidenav   ...    main   main   main  main ...  rightpanel rightpanel"
+    "sidenav sidenav   ...    main   main   main  main ... rightpanel  rightpanel"
+    "sidenav sidenav   ...    main   main   main  main ...  rightpanel rightpanel"    ;
+    gap: 1rem;
+}
+
+.feeds-container > * {
+    padding: 1rem 0.7rem;
+}
+
+/* media querries */
+@media only screen and (max-width:800px){
+    html{
+        font-size: 62.5%;
+    }
+    .feeds-container{
+        grid-template-columns:1fr;
+        grid-template-areas: 
+        "topnav"
+        "sidenav"
+        "rightpanel"
+        "main"
+        /* "main rightpanel" */
+        ;
+    }
+
+    .top-nav{
+        flex-direction: column;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+    }
+
+    .side-nav{
+        /* overflow: hidden; */
+        height: 100%;
+    }
+    .post-img{
+        height: 50%;
+        /* width: 50%; */
+    }
+    .comment-box{
+        flex-wrap: wrap; 
+        /* for smaller screen make it flex-direction column */
+    }
+}
+

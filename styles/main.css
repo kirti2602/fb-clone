@@ -1,0 +1,219 @@
+.main{
+    grid-area: main;
+    /* background-color: var(); */
+    /* border-radius: 0.8rem; */
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 1px solid red; */
+}
+
+.story-reels-container{
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.tab{
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    align-items: stretch;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.reels-container:hover{
+    background-color: var(--lighter-grey);
+    border-radius: 0.5rem;
+}
+
+.tab div{
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.story-container{
+    color: var(--primary-blue);
+    border-bottom: 3px solid var(--primary-blue);
+}
+
+.reels-container{
+    color: var(--darker-grey);
+}
+
+.story-icon{
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+}
+
+
+.reels-icon{
+    height: 1.5rem;
+}
+
+
+/* view/add story section css */
+
+.story-display{
+    gap:1rem;
+    justify-content: center;
+}
+
+.add-story-container{
+    flex-direction: column;
+    border: 1px solid var(--light-grey);
+    /* box-shadow: 1px 1px 10px 10px var(--light-grey); */
+    border-radius: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.story-img{
+    height: 8rem;
+    width: 7rem;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    background-color: var(--off-black);
+    margin-bottom: 1.5rem;
+}
+
+.footer-text, .user-name{
+    font-size: small;
+}
+
+.add-story{
+    bottom: 15%;
+    font-size: 1rem;
+    color: var(--white-bg);
+    background-color: var(--primary-blue);
+    border: 2px solid var(--white-bg);
+    border-radius: 100%;
+    padding: 0.5rem;
+}
+
+
+/* user story css */
+.story-img-user{
+    height: 10.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+}
+
+.user-name{
+ color: white;
+ bottom: 4%;
+ padding-left: 0.5rem;
+ font-weight: 500;
+}
+
+.story-icon-user{
+    border: 2px solid var(--primary-blue);
+    height: 2rem;
+    top: 6%;
+    left: 6%;
+}
+
+/* create a post css */
+.post-container{
+    width: 100%;
+}
+
+.post-media{
+    justify-content: space-around;
+}
+
+.post-input{
+    width: 100%;
+}
+
+.fi-sr-video-plus{
+    color: var(--cherry-pink);
+}
+
+.pic-vid{
+    height: 1.6rem;
+}
+
+.fi-rr-grin{
+    color: var(--lemon-yellow);
+}
+
+
+/* *post section css */
+
+.post-header{
+    justify-content: space-between;
+}
+
+.name-setting{
+    justify-self: flex-start;
+}
+
+.friend-name{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--zed-black)
+}
+
+.time{
+    font-size: 0.7rem;
+    align-self: flex-start;
+    color: var(--darker-grey);
+}
+
+.more-close i{
+    color: var(--darker-grey);
+    font-size: 1.7rem;
+    padding: 0.5rem;
+    height: 1.7rem;
+    width: 1.7rem;
+    justify-content: center;
+}
+
+.more-close i:hover{
+    background-color: var(--light-grey);
+    border-radius: 50%;
+}
+
+.post-img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.8rem;
+}
+
+.like-section{
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+.like-img{
+    height: 1rem;
+}
+
+.like-count{
+    font-size: 1rem;
+    color: var(--darker-grey);
+}
+
+.like-comment{
+    justify-content: space-around;
+    color: var(--darker-grey);
+}
+
+.like-comment i{
+    font-size: 1.2rem;
+}
+
+.like-comment div{
+    /* space-around not getting applied after this */
+    /* width: 100%;  */
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.like-comment div:hover{
+    background-color: var(--lighter-grey);
+}
+
+.comment-text{
+    margin-left: 22%;
+    font-size: 0.8rem;
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="styles/feeds.css">
+</head>
+
+<body>
+
+  <section class="feeds-container grid">
+    <!-- top nav -->
+    <header id="topNav" class="top-nav flex">
+      <!-- group1 -->
+      <div class="logo-search flex">
+        <i class="fa-brands fa-facebook"></i>
+        <div class="search-container flex">
+          <i class="fa-solid fa-magnifying-glass"></i>
+
+          <input class="search-input" type="text" placeholder="Search Facebook">
+        </div>
+      </div>
+
+      <!-- group2 -->
+      <div class="main-links flex">
+        <i class="fa-solid fa-house outline"></i>
+        <i class="fa-solid fa-user-group outline"></i>
+        <i class="fa-solid fa-circle-play outline"></i>
+        <i class="fa-solid fa-store outline"></i>
+        <i class="fa-solid fa-users"></i>
+      </div>
+
+      <!-- group3 -->
+      <div class="user-info flex">
+        <i class="fa-solid fa-plus"></i>
+        <i class="fa-brands fa-facebook-messenger"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-regular fa-user"></i>
+      </div>
+    </header>
+
+    <nav id="sideNav" class="side-nav flex">
+      <div class="flex"><img class="avatar-user" src="assets/girl.png" alt="user-icon"> Kirti Sharma</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/friendship.png" alt="icon">Friends</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/most-recent.png" alt="icon">Most Recent</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/meeting.png" alt="icon">Groups</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/marketplace.png" alt="icon">Marketplace</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/watching-a-movie.png" alt="icon">Watch</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/back-in-time.png" alt="icon">Memories</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/bookmark.png" alt="icon">Saved</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/flag.png" alt="icon">Pages</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/blood.png" alt="icon">Blood donation</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/expand-button.png" alt="icon">Show More</div>
+
+      <hr class="hr">
+
+      <div class="shortcuts">
+        <h1>Your Shortcuts</h1>
+      </div>
+      <div class="flex"><img class="sidenav-icon" src="assets/billiard.png" alt="icon">8 Ball Pool</div>
+      <div class="flex"><img class="sidenav-icon" src="assets/among-us.jpg" alt="icon">Among Us</div>
+      <div class="copyright"><small>Privacy · Terms · Advertising <br> · Ad choices · Cookies · <br> · Meta ©
+          2023</small></div>
+    </nav>
+
+    <main class="main flex">
+      <!-- story-reels section -->
+      <section class="story-reels-container white-bg flex border-rad1rem padding1rem">
+
+        <section class="tab pointer flex">
+          <div class="flex story-container"><i class="fa-solid fa-book-open story-icon"></i> Stories</div>
+          <div class="flex reels-container"><img class="reels-icon" src="assets/video.png" alt="reels-icon"> Reels</div>
+        </section>
+
+        <!-- story display section -->
+        <section class="story-display flex width100-pcent">
+          <div class="add-story-container flex relative">
+            <img class="story-img" src="assets/my-story.png" alt="">
+            <div class="add-story absolute"><i class="fa-solid fa-plus"></i></div>
+            <div class="footer-text">Create Story</div>
+          </div>
+
+          <div class="flex view-story-container relative">
+            <img class="avatar-user absolute story-icon-user" src="assets/avatar.png" alt="">
+            <img class="story-img-user" src="assets/deathnote.jpg" alt="">
+            <div class=" user-name absolute">L Lawliet</div>
+          </div>
+
+          <div class="flex view-story-container relative">
+            <img class="avatar-user absolute story-icon-user" src="assets/avatar.png" alt="">
+            <img class="story-img-user" src="assets/kakashi.jpg" alt="">
+            <div class=" user-name absolute">Hatake Kakashi</div>
+          </div>
+
+          <div class="flex view-story-container relative">
+            <img class="avatar-user absolute story-icon-user" src="assets/avatar.png" alt="">
+            <img class="story-img-user" src="assets/nezuko.jpg" alt="">
+            <div class=" user-name absolute">Tanjiro-Nezuko</div>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- create a post section -->
+      <section class="post-container white-bg border-rad1rem padding1rem flex-dir-col">
+        <div class="create-a-post flex">
+          <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+          <div class="search-container width100-pcent flex">
+            <input class="search-input width100-pcent" type="text" placeholder="What's on your mind, Kirti?">
+          </div>
+        </div>
+
+        <hr class="hr">
+
+        <div class="post-media flex width100">
+          <div class="flex min-gap">
+            <i class="fi fi-sr-video-plus icon-size"></i>
+            Live video
+          </div>
+
+          <div class="flex">
+            <img class="sidenav-icon pic-vid" src="assets/pic-vid.png" alt="Video/photo">
+            Photo/video
+          </div>
+
+          <div class="flex min-gap">
+            <i class="fi fi-rr-grin icon-size"></i>
+            Feeling/activity
+          </div>
+        </div>
+      </section>
+
+      <!-- friends post section -->
+      <section class="friends-post flex flex-dir-col white-bg width100-pcent padding1rem border-rad1rem">
+
+        <!-- first post -->
+        <div class="individual-post flex flex-dir-col width100-pcent max-gap">
+          <div class="post-header flex width100-pcent">
+            <span class="flex min-gap">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <span class="name-setting flex flex-dir-col min-gap">
+                <span class="friend-name">Naruto Uzumaki </span>
+                <small class="time">10 h · <i class="fa-solid fa-gear"></i></small>
+              </span>
+            </span>
+
+            <span class="more-close flex max-gap">
+              <i class="fi fi-rr-menu-dots flex"></i>
+              <i class="fa-solid fa-xmark flex"></i>
+              <small></small>
+            </span>
+          </div>
+
+          <hr>
+          <div class="post-body width100 flex flex-dir-col min-gap">
+            <img class="post-img" src="assets/naruto.jpg" alt="spyXfamily">
+
+            <div class="like-section flex min-gap width100-pcent">
+              <img class="like-img" src="assets/like-small.png" alt="likecount">
+              <span class="like-count">Liked by Sakura and 110K others</span>
+            </div>
+            <hr>
+            <div class="like-comment flex width100-pcent">
+              <div class="flex min-gap"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+              <div class="flex min-gap"><i class="fi fi-rr-comment-alt-middle"></i>Comment</div>
+              <div class="flex min-gap"><i class="fa-solid fa-share"></i>Share</div>
+            </div>
+            <hr>
+
+            <!-- comment section -->
+            <div class=" comment-box create-a-post flex width100-pcent">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <div class="search-container width100-pcent flex">
+                <input class="search-input width100-pcent" type="text" placeholder="Write a comment">
+              </div>
+            </div>
+            <div class="comment-text width100-pcent">Press enter to post</div>
+          </div>
+        </div>
+</section>
+
+        <!-- second post -->
+      <section class="friends-post flex flex-dir-col white-bg width100-pcent padding1rem border-rad1rem">
+        <div class="individual-post flex flex-dir-col width100-pcent max-gap">
+          <div class="post-header flex width100-pcent">
+            <span class="flex min-gap">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <span class="name-setting flex flex-dir-col min-gap">
+                <span class="friend-name">Demon Slayer</span>
+                <small class="time">10 h · <i class="fa-solid fa-gear"></i></small>
+              </span>
+            </span>
+
+            <span class="more-close flex max-gap">
+              <i class="fi fi-rr-menu-dots flex"></i>
+              <i class="fa-solid fa-xmark flex"></i>
+              <small></small>
+            </span>
+          </div>
+
+          <hr>
+          <div class="post-body width100 flex flex-dir-col min-gap">
+            <img class="post-img" src="assets/demon-slayer.jpg" alt="spyXfamily">
+
+            <div class="like-section flex min-gap width100-pcent">
+              <img class="like-img" src="assets/like-small.png" alt="likecount">
+              <span class="like-count">Liked by Kakashi and 100 others</span>
+            </div>
+            <hr>
+            <div class="like-comment flex width100-pcent">
+              <div class="flex min-gap"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+              <div class="flex min-gap"><i class="fi fi-rr-comment-alt-middle"></i>Comment</div>
+              <div class="flex min-gap"><i class="fa-solid fa-share"></i>Share</div>
+            </div>
+            <hr>
+            <div class="create-a-post flex width100-pcent">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <div class="search-container width100-pcent flex">
+                <input class="search-input width100-pcent" type="text" placeholder="Write a comment">
+              </div>
+            </div>
+            <div class="comment-text width100-pcent">Press enter to post</div>
+          </div>
+        </div>
+      </section>
+
+        <!-- third post -->
+      <section class="friends-post flex flex-dir-col white-bg width100-pcent padding1rem border-rad1rem">
+        <div class="individual-post flex flex-dir-col width100-pcent max-gap">
+          <div class="post-header flex width100-pcent">
+            <span class="flex min-gap">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <span class="name-setting flex flex-dir-col min-gap">
+                <span class="friend-name">One Piece</span>
+                <small class="time">19 h · <i class="fa-solid fa-gear"></i></small>
+              </span>
+            </span>
+
+            <span class="more-close flex max-gap">
+              <i class="fi fi-rr-menu-dots flex"></i>
+              <i class="fa-solid fa-xmark flex"></i>
+              <small></small>
+            </span>
+          </div>
+
+            <hr>
+          <div class="post-body width100 flex flex-dir-col min-gap">
+            <img class="post-img" src="assets/one-piece.jpg" alt="spyXfamily">
+            
+            <div class="like-section flex min-gap width100-pcent">
+              <img class="like-img" src="assets/like-small.png" alt="likecount">
+            <span class="like-count">Liked by Ace and 200 others</span>
+            </div>
+            <hr>
+            <div class="like-comment flex width100-pcent">
+              <div class="flex min-gap"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+              <div class="flex min-gap"><i class="fi fi-rr-comment-alt-middle"></i>Comment</div>
+              <div class="flex min-gap"><i class="fa-solid fa-share"></i>Share</div>
+            </div>
+            <hr>
+            <div class="create-a-post flex width100-pcent">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <div class="search-container width100-pcent flex">
+                <input class="search-input width100-pcent" type="text" placeholder="Write a comment">
+              </div>
+            </div>
+            <div class="comment-text width100-pcent">Press enter to post</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- fourth post -->
+      <section class="friends-post flex flex-dir-col white-bg width100-pcent padding1rem border-rad1rem">
+        <div class="individual-post flex flex-dir-col width100-pcent max-gap">
+          <div class="post-header flex width100-pcent">
+            <span class="flex min-gap">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <span class="name-setting flex flex-dir-col min-gap">
+                <span class="friend-name">Hatake Kakashi</span>
+                <small class="time">20 h · <i class="fa-solid fa-gear"></i></small>
+              </span>
+            </span>
+
+            <span class="more-close flex max-gap">
+              <i class="fi fi-rr-menu-dots flex"></i>
+              <i class="fa-solid fa-xmark flex"></i>
+              <small></small>
+            </span>
+          </div>
+
+            <hr>
+          <div class="post-body width100 flex flex-dir-col min-gap">
+            <img class="post-img" src="assets/kakashi.jpg" alt="spyXfamily">
+            
+            <div class="like-section flex min-gap width100-pcent">
+              <img class="like-img" src="assets/like-small.png" alt="likecount">
+            <span class="like-count">Liked by Ace and 200 others</span>
+            </div>
+            <hr>
+            <div class="like-comment flex width100-pcent">
+              <div class="flex min-gap"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+              <div class="flex min-gap"><i class="fi fi-rr-comment-alt-middle"></i>Comment</div>
+              <div class="flex min-gap"><i class="fa-solid fa-share"></i>Share</div>
+            </div>
+            <hr>
+            <div class="create-a-post flex width100-pcent">
+              <img class="avatar-user" src="assets/girl.png" alt="user-icon">
+              <div class="search-container width100-pcent flex">
+                <input class="search-input width100-pcent" type="text" placeholder="Write a comment">
+              </div>
+            </div>
+            <div class="comment-text width100-pcent">Press enter to post</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside class="right-panel flex flex-dir-col width100-pcent max-gap">
+      
+      <div class="width100-pcent">
+        Sponsored
+      <hr class="hr">
+      </div>
+      
+      <div class="friend-req flex  flex-dir-col width100-pcent max-gap">
+        <span class="req-heading">Friend Requests</span>
+        <div class="request-container flex">
+          <img class="avatar-user" src="assets/request.png" alt="friend-pic">
+
+          <div class="name flex flex-dir-col min-gap width100-pcent">
+            <span class="flex time-name width100-pcent">
+              <span class="req-name">Unknown User</span>
+              <span class="req-time"></span></span>
+            <div class="conf-del-btn flex min-gap">
+              <button class="btn confirm-btn">Confirm</button>
+              <button class="btn delete-btn">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second request -->
+      <div class="friend-req flex  flex-dir-col width100-pcent max-gap">
+        <div class="request-container flex">
+          <img class="avatar-user" src="assets/girl.png" alt="friend-pic">
+
+          <div class="name flex flex-dir-col min-gap width100-pcent">
+            <span class="flex time-name width100-pcent">
+              <span class="req-name">Nezuko Chan</span>
+              <span class="req-time"></span></span>
+            <div class="conf-del-btn flex min-gap">
+              <button class="btn confirm-btn">Confirm</button>
+              <button class="btn delete-btn">Delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+.side-nav{
+    grid-area: sidenav;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+    font-size: 0.9rem;
+    overflow-x: hidden;
+}
+
+/* to avoid using important, will use IDS instead */
+#sideNav{
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+.avatar-user{
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.sidenav-icon{
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+.side-nav > * {
+    gap: 0.5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.side-nav > *:hover {
+    background-color: var(--light-grey);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.shortcuts h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--darker-grey);
+    margin-bottom: 1rem;
+}
+
+.copyright{
+    margin-top: 1.5rem;
+    font-size: 12px;
+    color: var(--darker-grey);
+    font-weight: 400;
+}
+
+.shortcuts:hover{
+    background-color: var(--lighter-grey) ;
+}

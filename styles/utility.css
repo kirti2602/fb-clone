@@ -1,0 +1,65 @@
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.min-gap{
+    gap: 0.5rem;
+}
+
+.max-gap{
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.white-bg {
+    background-color: var(--white-bg);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.border-rad1rem {
+    border-radius: 0.8rem;
+    border: 1px solid var(--light-grey);
+}
+
+.padding1rem {
+    padding: 1rem;
+}
+
+.width100-pcent {
+    width: 100%;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.hr {
+    border-top: 1px solid var(--dark-grey);
+    margin: 1rem 0;
+    border-bottom: none;
+}
+
+.icon-size{
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline: none;
+}
+

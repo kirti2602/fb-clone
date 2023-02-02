@@ -1,0 +1,41 @@
+.right-panel{
+    grid-area: rightpanel;
+    padding-right: 0!important;
+}
+.friend-req{
+    align-items: flex-start;
+}
+
+.req-heading{
+    font-weight: 600;
+    color: var(--darker-grey);
+    font-size: 1.1rem;
+}
+
+
+.req-time{
+    color: var(--darker-grey);
+}
+
+.conf-del-btn{
+    justify-content: flex-start;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    width: 45%;
+    border: 1px solid;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.confirm-btn{
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    color: var(--white-bg);   
+}
+
+.delete-btn{
+    background-color: var(--light-grey);
+    border-color: var(--light-grey);
+}
